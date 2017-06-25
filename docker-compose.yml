@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+ exif2gpx:
+  build: .
+  volumes:
+   - /Users/marcel/Downloads/04-08-12:/images

@@ -1,0 +1,30 @@
+{
+  "name": "exif2gpx",
+  "version": "1.0.0",
+  "description": "exif2gpx - Converts the exif data in images into a gpx file",
+  "main": "start.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "console-log-level": "~1.4.0",
+    "convict": "^3.0.0",
+    "request": "2.81.0",
+    "nmea-0183": "^0.0.7",
+    "gpx-parse": "0.10.4",
+    "winston": "2.3.1",
+    "exif": "0.6.0"
+  },
+  "devDependencies": {
+    "standard": "^10.0.2"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "m.maatkamp@gmail.com",
+  "license": "MIT"
+}
